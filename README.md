@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains server implementations in multiple languages (C#, Go, JavaScript, and Python) along with a `k6` load testing script (`load_test.js`). This project was created for a software performance class (likely SENG 533) to evaluate and compare the performance characteristics of different server-side technologies under load.
+This repository contains server implementations in multiple languages (C#, Go, JavaScript, and Python) along with a `k6` load testing script (`load_test.js`). This project was created to evaluate and compare the performance characteristics of different server-side technologies under load.
 
 ## Project Structure
 
@@ -17,7 +17,7 @@ The repository includes the following files:
 
 ## Load Testing
 
-The `load_test.js` script uses `k6`, a modern load testing tool, to simulate user traffic and measure the performance of the servers.  The script likely defines metrics such as:
+The `load_test.js` script uses `k6`, a modern load testing tool, to simulate user traffic and measure the performance of the servers.  The script defines metrics such as:
 
 * **Response time:** The time it takes for the server to respond to a request.
 * **Requests per second (RPS):** The number of requests the server can handle per second.
